@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="id">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Pemrograman Web - Website Personal</title>
+        <!-- Tailwind CSS -->
+        <script src="https://cdn.tailwindcss.com"></script>
+        <!-- Inter Font -->
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+        <!-- Custom CSS -->
+        <style>
+            @layer utilities {
+                .bg-gradient-custom {
+                    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+                }
+            }
+        </style>
+    </head>
+    <body class="bg-gray-100 text-gray-900 font-sans">
+        <!-- Navbar -->
+        <nav class="bg-white shadow-md">
+            <div class="container mx-auto px-4 py-3 flex justify-between items-center">
+                <a href="../index.html" class="text-2xl font-bold text-primary hover:text-blue-700 transition duration-300">
+                    Dimas Agung F
+                </a>
+                
+                <div class="space-x-6">
+                    <a href="../index.html" class="relative text-gray-700 font-medium pb-1 hover:text-blue-600 transition-colors duration-300 after:content-[''] after:absolute after:bottom-0 after:left-0 after:w-0 after:h-0.5 after:bg-blue-600 after:transition-all after:duration-300 hover:after:w-full">Home</a>
+                    <a href="about.html" class="relative text-gray-700 font-medium pb-1 hover:text-blue-600 transition-colors duration-300 after:content-[''] after:absolute after:bottom-0 after:left-0 after:w-0 after:h-0.5 after:bg-blue-600 after:transition-all after:duration-300 hover:after:w-full">About Me</a>
+                    <a href="project.html" class="relative text-gray-700 font-medium pb-1 hover:text-blue-600 transition-colors duration-300 after:content-[''] after:absolute after:bottom-0 after:left-0 after:w-0 after:h-0.5 after:bg-blue-600 after:transition-all after:duration-300 hover:after:w-full">My Project</a>
+                    <a href="contact.html" class="relative text-gray-700 font-medium pb-1 hover:text-blue-600 transition-colors duration-300 after:content-[''] after:absolute after:bottom-0 after:left-0 after:w-0 after:h-0.5 after:bg-blue-600 after:transition-all after:duration-300 hover:after:w-full">Contact</a>
+                </div>
+            </div>
+        </nav>
+
+        <main>
+            <!-- List Project -->
+            <section id="Materi" class="py-8">
+                <h2 class="text-center text-2xl font-semibold mb-6">Project List</h2>
+                <div class="container mx-auto grid grid-cols-1 md:grid-cols-2 gap-10">
+                    <!-- Card 1 -->
+                    <a href="https://mondimais.github.io/Game_Project/2048%20Game/2048.html" target="_blank" class="block">
+                        <div class="bg-white rounded-lg shadow-md p-4 transform transition duration-300 hover:scale-105 hover:shadow-lg cursor-pointer group">
+                            <img src="../assets/images/2048.png" alt="Project 1" class="rounded-lg w-full">
+                            <h3 class="text-xl font-semibold mt-4 group-hover:text-blue-600">2048 Game</h3>
+                            <p class="text-gray-600 text-sm mt-2">Click to play</p>
+                        </div>
+                    </a>
+                    <!-- Card 2 -->
+                    <a href="https://mondimais.github.io/Game_Project/Pong%20Game/pong.html" target="_blank" class="block">
+                        <div class="bg-white rounded-lg shadow-md p-4 transform transition duration-300 hover:scale-105 hover:shadow-lg cursor-pointer group">
+                            <img src="../assets/images/pong.png" alt="Project 2" class="rounded-lg w-full">
+                            <h3 class="text-xl font-semibold mt-4 group-hover:text-blue-600">Pong Game</h3>
+                            <p class="text-gray-600 text-sm mt-2">Click to play</p>
+                        </div>
+                    </a>
+                    <!-- Card 3 -->
+                    <a href="https://mondimais.github.io/Game_Project/Snake%20Game/snake.html" target="_blank" class="block">
+                        <div class="bg-white rounded-lg shadow-md p-4 transform transition duration-300 hover:scale-105 hover:shadow-lg cursor-pointer group">
+                            <img src="../assets/images/snake.png" alt="Project 3" class="rounded-lg w-full">
+                            <h3 class="text-xl font-semibold mt-4 group-hover:text-blue-600">Snake Game</h3>
+                            <p class="text-gray-600 text-sm mt-2">Click to play</p>
+                        </div>
+                    </a>
+                    <!-- Card 4 -->
+                    <a href="https://mondimais.github.io/Game_Project/Tic-Tac-Toe/tictactoe.html" target="_blank" class="block">
+                        <div class="bg-white rounded-lg shadow-md p-4 transform transition duration-300 hover:scale-105 hover:shadow-lg cursor-pointer group">
+                            <img src="../assets/images/tictactoe.png" alt="Project 4" class="rounded-lg w-full">
+                            <h3 class="text-xl font-semibold mt-4 group-hover:text-blue-600">Tic-Tac-Toe</h3>
+                            <p class="text-gray-600 text-sm mt-2">Click to play</p>
+                        </div>
+                    </a>
+                    <!-- Card 5 -->
+                    <a href="https://mondimais.github.io/Game_Project/Wordle/wordle.html" target="_blank" class="block">
+                        <div class="bg-white rounded-lg shadow-md p-4 transform transition duration-300 hover:scale-105 hover:shadow-lg cursor-pointer group">
+                            <img src="../assets/images/wordle.png" alt="Project 5" class="rounded-lg w-full">
+                            <h3 class="text-xl font-semibold mt-4 group-hover:text-blue-600">Wordle</h3>
+                            <p class="text-gray-600 text-sm mt-2">Click to play</p>
+                        </div>
+                    </a>
+                    <!-- Card 6 -->
+                    <a href="https://wokwi.com/projects/431980019863741441" target="_blank" class="block">
+                        <div class="bg-white rounded-lg shadow-md p-4 transform transition duration-300 hover:scale-105 hover:shadow-lg cursor-pointer group">
+                            <img src="../assets/images/eis-project.png" alt="Project 6" class="rounded-lg w-full">
+                            <h3 class="text-xl font-semibold mt-4 group-hover:text-blue-600">Embedded Intelligent System Project</h3>
+                            <p class="text-gray-600 text-sm mt-2">Click to see</p>
+                            <br>
+                            <p>This project is an implementation of an intelligent fire early detection system using Arduino Uno as the main microcontroller. 
+                                This system is designed to provide early warning of potential fires by analyzing data from multiple sensors in real-time.</p>
+                            <br>
+                            <b>Academic Context</b>
+                            <p>Created with my team as a final exam project for the Embedded Intelligent System and Artificial Intelligence course</p>
+                            <br>
+                            <p>Integrating the concept of IoT (Internet of Things) with artificial intelligence</p>
+                        </div>
+                    </a>
+                    <!-- Card 7 -->
+                    <a href="https://github.com/MonDimais/UKMate" target="_blank" class="block">
+                        <div class="bg-white rounded-lg shadow-md p-4 transform transition duration-300 hover:scale-105 hover:shadow-lg cursor-pointer group">
+                            <img src="../assets/images/ukmate.png" alt="Project 7" class="rounded-lg w-full">
+                            <h3 class="text-xl font-semibold mt-4 group-hover:text-blue-600">Web Programing Project</h3>
+                            <p class="text-gray-600 text-sm mt-2">Click to see</p>
+                            <br>
+                            <p>This project is a management information system web application for the Student Activity Unit (UKM) of the Faculty of Computer Science. 
+                                This system is designed to facilitate the management of member data, activities, and organization administration in a digital and integrated manner.</p>
+                            <br>
+                            <b>Academic Context</b>
+                            <p>Developed with my team as the final exam project of Web Programming course</p>
+                            <br>
+                            <p>Apply the concept of full-stack web development with database integration</p>
+                            <br>
+                            <p>Practical implementation of lecture material in real cases</p>
+                        </div>
+                    </a>
+                </div>
+            </section>
+        </main>
+
+        <!-- Footer -->
+        <footer class="bg-white text-black py-6">
+            <div class="container mx-auto text-center">
+                <p>&copy; 2023 Website Personal Saya. All Rights Reserved.</p>
+            </div>
+        </footer>
+    </body>
+</html>
